@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="/images/logo.png">
     @vite('resources/css/app.css')
 </head>
-<body class="select-none">
+<body class="select-none overflow-x-hidden">
     <div class="container">
         @yield('content')
     </div>
