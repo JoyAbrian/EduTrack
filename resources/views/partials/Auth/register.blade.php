@@ -6,7 +6,7 @@
         <input type="text" placeholder="Enter School Name" class="w-full mt-3 border-b-2 border-gray-300 py-2 focus:outline-none focus:border-blue-500 border rounded-md px-3">
         <input type="email" placeholder="Enter Your Email" class="w-full mt-3 border-b-2 border-gray-300 py-2 focus:outline-none focus:border-blue-500 border rounded-md px-3">
         <input type="password" placeholder="Enter Your Password" class="w-full mt-3 mb-5 border-b-2 border-gray-300 py-2 focus:outline-none focus:border-blue-500 border rounded-md px-3">
-        <button class="w-full bg-blue-500 text-white py-2 rounded-lg">Login</button>
+        <button class="w-full bg-blue-500 text-white py-2 rounded-lg">Register</button>
         <p class="text-center mt-4">Already have an account? <a href="/login" class="text-blue-500">Login</a></p>
     </div>
 </div>

@@ -7,6 +7,7 @@ export default {
   ],
   theme: {
     extend: {
+      scrollBehavior: ['responsive'],
       fontFamily: {
         Arvo: ["Arvo", "sans-serif"],
         Karla: ["Karla", "sans-serif"],
