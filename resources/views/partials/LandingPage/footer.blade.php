@@ -1,4 +1,4 @@
-<footer class="bg-blue-950 shadow w-screen text-white">
+<footer class="bg-blue-950 shadow w-screen text-white font-Kumbh">
     <div class="w-full mx-auto max-w-screen-xl p-4 justify-between flex items-center">
         <span class="text-sm sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
         <ul class="flex flex-wrap items-center text-sm font-medium">
