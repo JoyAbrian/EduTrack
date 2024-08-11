@@ -11,6 +11,7 @@ export default {
         Arvo: ["Arvo", "sans-serif"],
         Karla: ["Karla", "sans-serif"],
         Kumbh: ["Kumbh Sans", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
     },
   },

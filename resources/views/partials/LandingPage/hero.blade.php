@@ -12,9 +12,9 @@
             <li><a href="#home" class="text-white hover:text-gray-400">Home</a></li>
             <li><a href="#companies" class="text-white hover:text-gray-400">Companies</a></li>
             <li><a href="#about" class="text-white hover:text-gray-400">About</a></li>
-            <li><a href="#  pricing" class="text-white hover:text-gray-400">Pricing</a></li>
+            <li><a href="#pricing" class="text-white hover:text-gray-400">Pricing</a></li>
         </ul>
-        <button class="bg-[#0A92DD] text-white font-Karla font-bold text-md px-10 py-3 rounded-full">Login</button>
+        <a href="/login" class="bg-[#0A92DD] text-white font-Karla font-bold text-md px-10 py-3 rounded-full">Login</a>
     </nav>
 
     <div class="relative w-screen h-fit flex items-center justify-center mt-20">
