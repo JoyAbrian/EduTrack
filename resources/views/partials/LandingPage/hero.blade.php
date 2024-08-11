@@ -17,7 +17,7 @@
         <button class="bg-[#0A92DD] text-white font-Karla font-bold text-md px-10 py-3 rounded-full">Login</button>
     </nav>
 
-    <div class="relative w-screen h-fit flex items-center justify-center">
+    <div class="relative w-screen h-fit flex items-center justify-center mt-20">
         <div class="flex flex-col items-center relative top-1/4 justify-center z-10">
             <button class="text-[#D89925] text-xl bg-white bg-opacity-5 rounded-full px-6 py-3 border border-white font-semibold">Get Your Free Consultant Now</button>
             
