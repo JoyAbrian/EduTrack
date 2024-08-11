@@ -20,4 +20,6 @@
     @include('partials.LandingPage.pricing')
 </section>
 
+@include('partials.LandingPage.footer')
+
 @endsection
