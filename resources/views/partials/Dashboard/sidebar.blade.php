@@ -1,4 +1,4 @@
-<div class="bg-blue-950 h-screen w-1/4">
+<div class="bg-blue-950 h-screen w-1/5">
     <div class="flex flex-col items-center my-8">
         <img src="{{ asset('images/sidebaricon/anonym.png') }}" alt="picture" class="w-24 h-24 rounded-full object-cover">
         <h1 class="text-white text-center font-semibold font-Kumbh text-xl mt-8">Admin Ruukaze</h1>

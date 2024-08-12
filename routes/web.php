@@ -18,5 +18,5 @@ Route::get('/register', function () {
 
 ## Dashboard route
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('dashboard', ['dashboardContent' => view('partials.Dashboard.home')]);
 });
