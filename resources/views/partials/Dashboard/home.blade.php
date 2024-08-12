@@ -1,4 +1,4 @@
-<div class="w-full h-full p-20 font-Kumbh">
+<div class="w-full h-fit p-20 font-Kumbh">
     <h1 class="text-4xl font-semibold">Welcome to your dashboard, Admin Ruukaze!</h1>
     <h2 class="ml-16 mt-5 text-xl font-medium">Here you can manage your teachers and students.</h2>
     <div class="mt-16 ml-16">

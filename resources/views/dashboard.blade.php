@@ -4,9 +4,9 @@
 
 @section('content')
 
-<div class="flex w-screen h-screen">
+<div class="flex w-screen h-screen overflow-hidden">
     @include('partials.Dashboard.sidebar')
-    <div class="w-4/5">
+    <div class="w-4/5 overflow-y-auto">
         @include('partials.Dashboard.header')
         @isset($dashboardContent)
             {!! $dashboardContent !!}

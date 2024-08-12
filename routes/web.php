@@ -20,3 +20,11 @@ Route::get('/register', function () {
 Route::get('/dashboard', function () {
     return view('dashboard', ['dashboardContent' => view('partials.Dashboard.home')]);
 });
+
+Route::get('/dashboard/teacher', function () {
+    return view('dashboard', ['dashboardContent' => view('partials.Dashboard.teacher')]);
+});
+
+Route::get('/dashboard/students', function () {
+    return view('dashboard', ['dashboardContent' => view('partials.Dashboard.students')]);
+});
