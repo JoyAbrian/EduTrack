@@ -13,14 +13,14 @@
             </div>
         </li>
         <li class="mb-4">
-            <div class="text-white font-Kumbh font-semibold text-lg flex p-2 hover:bg-blue-800 rounded {{ Request::is('dashboard/teacher') ? 'bg-blue-800' : '' }}">
+            <div class="text-white font-Kumbh font-semibold text-lg flex p-2 rounded {{ Request::is('dashboard/teacher') ? 'bg-blue-500' : 'hover:bg-blue-800' }}">
                 <a href="/dashboard/teacher" class="items-center">
                     <i class="bi-person-fill mr-3"></i> Teacher
                 </a>
             </div>
         </li>
         <li class="mb-4">
-            <div class="text-white font-Kumbh font-semibold text-lg flex p-2 hover:bg-blue-800 rounded {{ Request::is('dashboard/students') ? 'bg-blue-800' : '' }}">
+            <div class="text-white font-Kumbh font-semibold text-lg flex p-2 rounded {{ Request::is('dashboard/students') ? 'bg-blue-500' : 'hover:bg-blue-800' }}">
                 <a href="/dashboard/students" class="items-center">
                     <i class="bi-person-check mr-3"></i> Students
                 </a>
