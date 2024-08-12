@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->foreignId('school_id')->nullable()->constrained('schools')->onDelete('set null');
             $table->string('password');
-            $table->string('role')->default('user');
+            $table->enum('role', ['user', 'admin'])->default('user');
             $table->rememberToken();
             $table->timestamps();
         });
