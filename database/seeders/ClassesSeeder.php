@@ -14,156 +14,129 @@ class ClassesSeeder extends Seeder
     public function run(): void
     {
         $classes = [
-            // U.A. High School
-            ['name' => 'Class 1-A', 'school_id' => 2],
-            ['name' => 'Class 1-B', 'school_id' => 2],
-            ['name' => 'Hero Course', 'school_id' => 2],
-            ['name' => 'Support Course', 'school_id' => 2],
+            // Classes for Konoha Academy
+            ['name' => 'Team 7 - Ninja Squad', 'school_id' => 1],
+            ['name' => 'Team 10 - Strategic Unit', 'school_id' => 1],
 
-            // Ouran Academy
-            ['name' => 'Class 1-S', 'school_id' => 3],
-            ['name' => 'Host Club', 'school_id' => 3],
-            ['name' => 'Music Room 3', 'school_id' => 3],
+            // Classes for U.A. High School
+            ['name' => '1-A Hero Course', 'school_id' => 2],
+            ['name' => '1-B Hero Course', 'school_id' => 2],
 
-            // Honnouji Academy
-            ['name' => 'Elite Four', 'school_id' => 4],
-            ['name' => 'Class No-Star', 'school_id' => 4],
-            ['name' => 'Class One-Star', 'school_id' => 4],
+            // Classes for Ouran Academy
+            ['name' => 'Host Club Elite', 'school_id' => 3],
+            ['name' => 'Class 1-A: Elegant Scholars', 'school_id' => 3],
 
-            // Death Weapon Meister Academy
-            ['name' => 'Scythe Meister', 'school_id' => 5],
-            ['name' => 'Weapon Class', 'school_id' => 5],
-            ['name' => 'Death Scythe Class', 'school_id' => 5],
+            // Classes for Honnouji Academy
+            ['name' => 'Elite Four - Top Class', 'school_id' => 4],
+            ['name' => 'Class 2-A: Combatants', 'school_id' => 4],
 
-            // Tenbi Academy
-            ['name' => 'Class 2-A', 'school_id' => 6],
-            ['name' => 'Class 3-A', 'school_id' => 6],
-            ['name' => 'Maken Club', 'school_id' => 6],
+            // Classes for Death Weapon Meister Academy
+            ['name' => 'Class 1-A: Meisters & Weapons', 'school_id' => 5],
+            ['name' => 'Class 1-B: Demon Hunters', 'school_id' => 5],
 
-            // Kuoh Academy
-            ['name' => 'Class Devils', 'school_id' => 7],
-            ['name' => 'Occult Research Club', 'school_id' => 7],
-            ['name' => 'Class Fallen', 'school_id' => 7],
+            // Classes for Tenbi Academy
+            ['name' => 'Class 1-A: Magical Prodigies', 'school_id' => 6],
+            ['name' => 'Class 2-A: Spellcasters', 'school_id' => 6],
 
-            // Yokai Academy
-            ['name' => 'Class Yokai', 'school_id' => 8],
-            ['name' => 'Monster Class', 'school_id' => 8],
-            ['name' => 'Class S-Class', 'school_id' => 8],
+            // Classes for Kuoh Academy
+            ['name' => 'Class 1-A: Devil Hunters', 'school_id' => 7],
+            ['name' => 'Class 1-B: Sacred Guardians', 'school_id' => 7],
 
-            // Shuchiin Academy
-            ['name' => 'Student Council', 'school_id' => 9],
-            ['name' => 'Class A1', 'school_id' => 9],
-            ['name' => 'Class B1', 'school_id' => 9],
+            // Classes for Yokai Academy
+            ['name' => 'Class 1-A: Supernatural Studies', 'school_id' => 8],
+            ['name' => 'Class 1-B: Yokai Protection', 'school_id' => 8],
 
-            // Seirin High School
-            ['name' => 'Class Miracle', 'school_id' => 10],
-            ['name' => 'Basketball Club', 'school_id' => 10],
-            ['name' => 'Class 2-A', 'school_id' => 10],
+            // Classes for Shuchiin Academy
+            ['name' => 'Student Council Elite', 'school_id' => 9],
+            ['name' => 'Class 2-A: Academic Excellence', 'school_id' => 9],
 
-            // Sakuragaoka High School
-            ['name' => 'Light Music Club', 'school_id' => 11],
-            ['name' => 'Class 1-B', 'school_id' => 11],
-            ['name' => 'Class 2-B', 'school_id' => 11],
+            // Classes for Seirin High School
+            ['name' => 'Class 1-A: Basketball Prospects', 'school_id' => 10],
+            ['name' => 'Class 2-A: Rising Stars', 'school_id' => 10],
 
-            // Karasuno High School
-            ['name' => 'Volleyball Club', 'school_id' => 12],
-            ['name' => 'Class 1-A', 'school_id' => 12],
-            ['name' => 'Class 2-B', 'school_id' => 12],
+            // Classes for Sakuragaoka High School
+            ['name' => 'Class 1-A: Music Enthusiasts', 'school_id' => 11],
+            ['name' => 'Class 2-A: Performance Troupe', 'school_id' => 11],
 
-            // Ninja Academy
-            ['name' => 'Ninja Class', 'school_id' => 13],
-            ['name' => 'Genin Class', 'school_id' => 13],
-            ['name' => 'Chunin Class', 'school_id' => 13],
+            // Classes for Karasuno High School
+            ['name' => 'Class 1-A: Volleyball Squad', 'school_id' => 12],
+            ['name' => 'Class 2-A: Athletic Team', 'school_id' => 12],
 
-            // Rikkaidai Fuzoku
-            ['name' => 'Tennis Club', 'school_id' => 14],
-            ['name' => 'Class 3-B', 'school_id' => 14],
-            ['name' => 'Class 1-A', 'school_id' => 14],
+            // Classes for Ninja Academy
+            ['name' => 'Class 1-A: Stealth Warriors', 'school_id' => 13],
+            ['name' => 'Class 2-A: Shadow Assassins', 'school_id' => 13],
 
-            // Aldera Junior High
-            ['name' => 'Class 2-C', 'school_id' => 15],
-            ['name' => 'Class 3-D', 'school_id' => 15],
-            ['name' => 'Class 1-B', 'school_id' => 15],
+            // Classes for Rikkaidai Fuzoku
+            ['name' => 'Class 1-A: Tennis Champions', 'school_id' => 14],
+            ['name' => 'Class 2-A: Athletic Stars', 'school_id' => 14],
 
-            // Cross Academy
-            ['name' => 'Night Class', 'school_id' => 16],
-            ['name' => 'Day Class', 'school_id' => 16],
-            ['name' => 'Disciplinary Committee', 'school_id' => 16],
+            // Classes for Aldera Junior High
+            ['name' => 'Class 1-A: Young Heroes', 'school_id' => 15],
+            ['name' => 'Class 2-A: Future Prodigies', 'school_id' => 15],
 
-            // True Cross Academy
-            ['name' => 'Exorcist Class', 'school_id' => 17],
-            ['name' => 'Knight Class', 'school_id' => 17],
-            ['name' => 'Dragoon Class', 'school_id' => 17],
+            // Classes for Cross Academy
+            ['name' => 'Day Class: Humans', 'school_id' => 16],
+            ['name' => 'Night Class: Vampires', 'school_id' => 16],
 
-            // Starlight Academy
-            ['name' => 'Class 1-Idol', 'school_id' => 18],
-            ['name' => 'Class 2-Idol', 'school_id' => 18],
-            ['name' => 'Class 3-Idol', 'school_id' => 18],
+            // Classes for True Cross Academy
+            ['name' => 'Class 1-A: Exorcists', 'school_id' => 17],
+            ['name' => 'Class 2-A: Demon Hunters', 'school_id' => 17],
 
-            // Amakusa High School
-            ['name' => 'Class Shuriken', 'school_id' => 19],
-            ['name' => 'Class 1-A', 'school_id' => 19],
-            ['name' => 'Class 2-B', 'school_id' => 19],
+            // Classes for Starlight Academy
+            ['name' => 'Class 1-A: Rising Stars', 'school_id' => 18],
+            ['name' => 'Class 2-A: Aspiring Celebrities', 'school_id' => 18],
 
-            // Hakoniwa Academy
-            ['name' => 'Class Plus Ultra', 'school_id' => 20],
-            ['name' => 'Class 2-A', 'school_id' => 20],
-            ['name' => 'Class 1-B', 'school_id' => 20],
+            // Classes for Amakusa High School
+            ['name' => 'Class 1-A: Adventurers', 'school_id' => 19],
+            ['name' => 'Class 2-A: Seafaring Crew', 'school_id' => 19],
 
-            // Kisaragi Academy
-            ['name' => 'Class Cursed', 'school_id' => 21],
-            ['name' => 'Class 3-A', 'school_id' => 21],
-            ['name' => 'Class 2-C', 'school_id' => 21],
+            // Classes for Hakoniwa Academy
+            ['name' => 'Class 1-A: Gardeners', 'school_id' => 20],
+            ['name' => 'Class 2-A: Cultivators', 'school_id' => 20],
 
-            // Totsuki Culinary Academy
-            ['name' => 'Elite Ten', 'school_id' => 22],
-            ['name' => 'Class 1-A', 'school_id' => 22],
-            ['name' => 'Class 2-B', 'school_id' => 22],
+            // Classes for Kisaragi Academy
+            ['name' => 'Class 1-A: Magical Scholars', 'school_id' => 21],
+            ['name' => 'Class 2-A: Enchanted Scholars', 'school_id' => 21],
 
-            // Mahora Academy
-            ['name' => 'Class 3-A', 'school_id' => 23],
-            ['name' => 'Class 2-A', 'school_id' => 23],
-            ['name' => 'Class B', 'school_id' => 23],
+            // Classes for Totsuki Culinary Academy
+            ['name' => 'Elite 10 - Top Chefs', 'school_id' => 22],
+            ['name' => 'First-Year Culinary Class', 'school_id' => 22],
 
-            // Nishi High School
-            ['name' => 'Class Nishi', 'school_id' => 24],
-            ['name' => 'Class 1-C', 'school_id' => 24],
-            ['name' => 'Class 2-D', 'school_id' => 24],
+            // Classes for Mahora Academy
+            ['name' => 'Class 1-A: Magical Studies', 'school_id' => 23],
+            ['name' => 'Class 1-B: Adventure Seekers', 'school_id' => 23],
 
-            // Otonokizaka High School
-            ['name' => 'Idol Club', 'school_id' => 25],
-            ['name' => 'Class 3-A', 'school_id' => 25],
-            ['name' => 'Class 2-C', 'school_id' => 25],
+            // Classes for Nishi High School
+            ['name' => 'Class 1-A: Combatants', 'school_id' => 24],
+            ['name' => 'Class 2-A: Tactical Unit', 'school_id' => 24],
 
-            // Kamiyama High School
-            ['name' => 'Class Classics', 'school_id' => 26],
-            ['name' => 'Class 1-A', 'school_id' => 26],
-            ['name' => 'Class 3-B', 'school_id' => 26],
+            // Classes for Otonokizaka High School
+            ['name' => 'Class 1-A: Idol Aspirants', 'school_id' => 25],
+            ['name' => 'Class 2-A: Performance Team', 'school_id' => 25],
 
-            // Meiou High School
-            ['name' => 'Class Moon', 'school_id' => 27],
-            ['name' => 'Class 2-B', 'school_id' => 27],
-            ['name' => 'Class 1-C', 'school_id' => 27],
+            // Classes for Kamiyama High School
+            ['name' => 'Class 1-A: Rural Scholars', 'school_id' => 26],
+            ['name' => 'Class 2-A: Local Heroes', 'school_id' => 26],
 
-            // Ashford Academy
-            ['name' => 'Knightmare Frame Pilots', 'school_id' => 28],
-            ['name' => 'Student Council', 'school_id' => 28],
-            ['name' => 'Class 1-A', 'school_id' => 28],
+            // Classes for Meiou High School
+            ['name' => 'Class 1-A: Urban Legends', 'school_id' => 27],
+            ['name' => 'Class 2-A: Modern Knights', 'school_id' => 27],
 
-            // Fuuka Academy
-            ['name' => 'Class Hime', 'school_id' => 29],
-            ['name' => 'Class 2-A', 'school_id' => 29],
-            ['name' => 'Class 3-C', 'school_id' => 29],
+            // Classes for Ashford Academy
+            ['name' => 'Class 1-A: Elite Diplomats', 'school_id' => 28],
+            ['name' => 'Class 2-A: Future Leaders', 'school_id' => 28],
 
-            // Sanada North High School
-            ['name' => 'Student Council', 'school_id' => 30],
-            ['name' => 'Class 1-A', 'school_id' => 30],
-            ['name' => 'Class 2-D', 'school_id' => 30],
+            // Classes for Fuuka Academy
+            ['name' => 'Class 1-A: Scenic Adventurers', 'school_id' => 29],
+            ['name' => 'Class 2-A: Cultural Explorers', 'school_id' => 29],
 
-            // Inaba Municipal High School
-            ['name' => 'Investigation Team', 'school_id' => 31],
-            ['name' => 'Class 2-A', 'school_id' => 31],
-            ['name' => 'Class 1-B', 'school_id' => 31],
+            // Classes for Sanada North High School
+            ['name' => 'Class 1-A: High Achievers', 'school_id' => 30],
+            ['name' => 'Class 2-A: Rising Stars', 'school_id' => 30],
+
+            // Classes for Inaba Municipal High School
+            ['name' => 'Class 1-A: Town Guardians', 'school_id' => 31],
+            ['name' => 'Class 2-A: Community Leaders', 'school_id' => 31],
         ];
 
         foreach ($classes as $class) {
