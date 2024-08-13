@@ -169,10 +169,11 @@ class TeacherSeeder extends Seeder
         foreach ($teachers as $teacher) {
             DB::table('teachers')->insert([
                 'name' => $teacher['name'],
+                'teacher-token' => mt_rand(100000, 999999),
                 'email' => $teacher['email'],
                 'phone' => $teacher['phone'],
                 'gender' => $teacher['gender'],
-                'image-url' => null,
+                'image-url' => "images/dummy/teacher/" . $teacher['name'] . ".png",
                 'subject_id' => $teacher['subject_id'],
                 'school_id' => $teacher['school_id'],
                 'created_at' => now(),
