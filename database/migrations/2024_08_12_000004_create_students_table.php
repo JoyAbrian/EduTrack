@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('phone');
             $table->enum('gender', ['Male', 'Female']);
             $table->string('image-url')->nullable();
+            $table->string('student_token')->unique();
             $table->foreignId('class_id')->constrained();
             $table->timestamps();
         });
