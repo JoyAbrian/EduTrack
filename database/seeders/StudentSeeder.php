@@ -271,23 +271,27 @@ class StudentSeeder extends Seeder
             ['name' => 'Aya Nakamura', 'email' => 'aya.nakamura@fuuka.edu.jp', 'phone' => '080-0123-4567', 'gender' => 'Female', 'class_id' => 57],
             ['name' => 'Ryo Nishida', 'email' => 'ryo.nishida@fuuka.edu.jp', 'phone' => '080-1234-5678', 'gender' => 'Male', 'class_id' => 57],
 
+            ['name' => 'Hikaru Tanaka', 'email' => 'hikaru.tanaka@fuuka.edu.jp', 'phone' => '080-2345-6789', 'gender' => 'Male', 'class_id' => 58],
+            ['name' => 'Miki Yamamoto', 'email' => 'miki.yamamoto@fuuka.edu.jp', 'phone' => '080-3456-7890', 'gender' => 'Female', 'class_id' => 58],
+            ['name' => 'Taro Suzuki', 'email' => 'taro.suzuki@fuuka.edu.jp', 'phone' => '080-4567-8901', 'gender' => 'Male', 'class_id' => 58],
+            
             // Sanada North High School classes
-            ['name' => 'Mio Kato', 'email' => 'mio.kato@sanada.edu.jp', 'phone' => '080-2345-6789', 'gender' => 'Female', 'class_id' => 58],
-            ['name' => 'Kenta Matsuda', 'email' => 'kenta.matsuda@sanada.edu.jp', 'phone' => '080-3456-7890', 'gender' => 'Male', 'class_id' => 58],
-            ['name' => 'Nana Suzuki', 'email' => 'nana.suzuki@sanada.edu.jp', 'phone' => '080-4567-8901', 'gender' => 'Female', 'class_id' => 58],
+            ['name' => 'Mio Kato', 'email' => 'mio.kato@sanada.edu.jp', 'phone' => '080-2345-6789', 'gender' => 'Female', 'class_id' => 59],
+            ['name' => 'Kenta Matsuda', 'email' => 'kenta.matsuda@sanada.edu.jp', 'phone' => '080-3456-7890', 'gender' => 'Male', 'class_id' => 59],
+            ['name' => 'Nana Suzuki', 'email' => 'nana.suzuki@sanada.edu.jp', 'phone' => '080-4567-8901', 'gender' => 'Female', 'class_id' => 59],
 
-            ['name' => 'Jiro Yamamoto', 'email' => 'jiro.yamamoto@sanada.edu.jp', 'phone' => '080-5678-9012', 'gender' => 'Male', 'class_id' => 59],
-            ['name' => 'Hina Takahashi', 'email' => 'hina.takahashi@sanada.edu.jp', 'phone' => '080-6789-0123', 'gender' => 'Female', 'class_id' => 59],
-            ['name' => 'Kazuya Kaneko', 'email' => 'kazuya.kaneko@sanada.edu.jp', 'phone' => '080-7890-1259', 'gender' => 'Male', 'class_id' => 59],
+            ['name' => 'Jiro Yamamoto', 'email' => 'jiro.yamamoto@sanada.edu.jp', 'phone' => '080-5678-9012', 'gender' => 'Male', 'class_id' => 60],
+            ['name' => 'Hina Takahashi', 'email' => 'hina.takahashi@sanada.edu.jp', 'phone' => '080-6789-0123', 'gender' => 'Female', 'class_id' => 60],
+            ['name' => 'Kazuya Kaneko', 'email' => 'kazuya.kaneko@sanada.edu.jp', 'phone' => '080-7890-1260', 'gender' => 'Male', 'class_id' => 60],
 
             // Inaba Municipal High School classes
-            ['name' => 'Akira Mori', 'email' => 'akira.mori@inaba.edu.jp', 'phone' => '080-8901-2345', 'gender' => 'Male', 'class_id' => 60],
-            ['name' => 'Saki Takeda', 'email' => 'saki.takeda@inaba.edu.jp', 'phone' => '080-9012-3456', 'gender' => 'Female', 'class_id' => 60],
-            ['name' => 'Kaito Fujii', 'email' => 'kaito.fujii@inaba.edu.jp', 'phone' => '080-0123-4567', 'gender' => 'Male', 'class_id' => 60],
+            ['name' => 'Akira Mori', 'email' => 'akira.mori@inaba.edu.jp', 'phone' => '080-8901-2345', 'gender' => 'Male', 'class_id' => 61],
+            ['name' => 'Saki Takeda', 'email' => 'saki.takeda@inaba.edu.jp', 'phone' => '080-9012-3456', 'gender' => 'Female', 'class_id' => 61],
+            ['name' => 'Kaito Fujii', 'email' => 'kaito.fujii@inaba.edu.jp', 'phone' => '080-0123-4567', 'gender' => 'Male', 'class_id' => 61],
 
-            ['name' => 'Riko Nakagawa', 'email' => 'riko.nakagawa@inaba.edu.jp', 'phone' => '080-1234-5678', 'gender' => 'Female', 'class_id' => 61],
-            ['name' => 'Shouichi Matsumoto', 'email' => 'shouichi.matsumoto@inaba.edu.jp', 'phone' => '080-2345-6789', 'gender' => 'Male', 'class_id' => 61],
-            ['name' => 'Mai Kuroda', 'email' => 'mai.kuroda@inaba.edu.jp', 'phone' => '080-3456-7890', 'gender' => 'Female', 'class_id' => 61],
+            ['name' => 'Riko Nakagawa', 'email' => 'riko.nakagawa@inaba.edu.jp', 'phone' => '080-1234-5678', 'gender' => 'Female', 'class_id' => 62],
+            ['name' => 'Shouichi Matsumoto', 'email' => 'shouichi.matsumoto@inaba.edu.jp', 'phone' => '080-2345-6789', 'gender' => 'Male', 'class_id' => 62],
+            ['name' => 'Mai Kuroda', 'email' => 'mai.kuroda@inaba.edu.jp', 'phone' => '080-3456-7890', 'gender' => 'Female', 'class_id' => 62],
         ];
 
         foreach ($students as $student) {
@@ -296,8 +300,9 @@ class StudentSeeder extends Seeder
                 'email' => $student['email'],
                 'phone' => $student['phone'],
                 'gender' => $student['gender'],
-                'image-url' => null,
+                'image-url' => "images/dummy/student/" . $student['name'] . ".png",
                 'class_id' => $student['class_id'],
+                'student_token' => mt_rand(100000, 999999),
                 'created_at' => now(),
                 'updated_at' => now(),
             ]);

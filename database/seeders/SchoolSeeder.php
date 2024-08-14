@@ -204,6 +204,7 @@ class SchoolSeeder extends Seeder
                 'state' => $school['state'],
                 'city' => $school['city'],
                 'country' => $school['country'],
+                'school_code' => rand(1000, 9999),
                 'created_at' => now(),
                 'updated_at' => now(),
             ]);
