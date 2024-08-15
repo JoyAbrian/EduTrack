@@ -15,9 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->foreignId('school_id')->nullable()->constrained('schools')->onDelete('set null');
+            $table->foreignId('school_id')->constrained('schools');
             $table->string('password');
             $table->enum('role', ['user', 'admin'])->default('user');
+            $table->integer('admin_token')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

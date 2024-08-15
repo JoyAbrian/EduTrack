@@ -46,6 +46,7 @@ class UserSeeder extends Seeder
                     'school_id' => $schoolId,
                     'password' => bcrypt('password'),
                     'role' => $role,
+                    'admin_token' => $role === 'admin' ? random_int(1000, 9999) : null,
                     'remember_token' => Str::random(10),
                     'created_at' => now(),
                     'updated_at' => now(),
