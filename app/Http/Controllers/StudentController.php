@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Student;
 use App\Http\Requests\StoreStudentRequest;
 use App\Http\Requests\UpdateStudentRequest;
+use Illuminate\Support\Facades\Auth;
 
 class StudentController extends Controller
 {
@@ -37,7 +38,14 @@ class StudentController extends Controller
      */
     public function show(Student $student)
     {
-        //
+        $user = Auth::user();
+        $students = Student::whereHas('class', function ($query) use ($user) {
+            $query->where('school_id', $user->school_id);
+        })->with('class')->get();
+        
+        return view('dashboard', [
+            'dashboardContent' => view('partials.Dashboard.students', compact('students'))
+        ]);
     }
 
     /**

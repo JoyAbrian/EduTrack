@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
 use App\Http\Middleware\DashboardAccess;
 
@@ -25,7 +26,4 @@ Route::get('/dashboard', function () {
 })->middleware(DashboardAccess::class);
 
 Route::get('/dashboard/teacher', [TeacherController::class, 'show'])->middleware(DashboardAccess::class);
-
-Route::get('/dashboard/students', function () {
-    return view('dashboard', ['dashboardContent' => view('partials.Dashboard.students')]);
-})->middleware(DashboardAccess::class);
+Route::get('/dashboard/students', [StudentController::class, 'show'])->middleware(DashboardAccess::class);
