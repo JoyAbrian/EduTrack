@@ -300,7 +300,7 @@ class StudentSeeder extends Seeder
                 'email' => $student['email'],
                 'phone' => $student['phone'],
                 'gender' => $student['gender'],
-                'image-url' => "images/dummy/student/" . $student['name'] . ".png",
+                'image_url' => "images/dummy/student/" . $student['name'] . ".png",
                 'class_id' => $student['class_id'],
                 'student_token' => mt_rand(100000, 999999),
                 'created_at' => now(),

@@ -173,7 +173,7 @@ class TeacherSeeder extends Seeder
                 'email' => $teacher['email'],
                 'phone' => $teacher['phone'],
                 'gender' => $teacher['gender'],
-                'image-url' => "images/dummy/teacher/" . $teacher['name'] . ".png",
+                'image_url' => "images/dummy/teacher/" . $teacher['name'] . ".png",
                 'subject_id' => $teacher['subject_id'],
                 'school_id' => $teacher['school_id'],
                 'created_at' => now(),

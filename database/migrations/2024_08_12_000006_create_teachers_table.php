@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('phone');
             $table->enum('gender', ['Male', 'Female']);
-            $table->string('image-url')->nullable();
+            $table->string('image_url')->nullable();
             $table->foreignId('subject_id')->constrained();
             $table->foreignId('school_id')->constrained();
             $table->timestamps();
